@@ -6,6 +6,7 @@ public class BonusService {
         if (bonus > limit) {
             bonus = limit;
         }
+        System.out.println("Бонус = " + bonus);
         return bonus;
 
     }
